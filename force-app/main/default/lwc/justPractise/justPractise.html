@@ -1,0 +1,102 @@
+<template>
+  
+    <lightning-card title="Account" icon-name='standard:account'>
+        
+        <lightning-button label="+ Follow" slot="actions"></lightning-button>
+        <lightning-button label="New Note" slot="actions"></lightning-button>
+        <lightning-button label="New Opportunity" slot="actions"></lightning-button>
+        <lightning-button label="Change Owner" slot="actions"></lightning-button>
+        
+    
+        
+<div class="c-container">
+    <lightning-layout>
+        <lightning-layout-item padding="around-small">
+            <div class="header-column">
+                <p class="field-title" title="Field 1">Account Number</p>
+                <p>1234</p>
+            </div>
+        </lightning-layout-item> 
+        <lightning-layout-item padding="around-small">
+            <div class="header-column">
+                <p class="field-title" title="Field2 (3)">Type
+                    <lightning-button-icon icon-name="utility:down" variant="border-filled" size="small" alternative-text="More Actions"></lightning-button-icon>
+                </p>
+                <p>Customer - Channel</p>
+            </div>
+        </lightning-layout-item>
+        <lightning-layout-item padding="around-small">
+            <div class="header-column"> 
+                <p class="field-title" title="Field 3">Parent Account</p>
+               
+            </div>
+        </lightning-layout-item>
+        <lightning-layout-item padding="around-small">
+            <div class="header-column">
+                <p class="field-title" title="Field 4">Industry</p>
+                <p>
+                    <span title="">Biotechnology</span>
+                </p>
+            </div>
+        </lightning-layout-item>
+    </lightning-layout>
+</div>
+
+</lightning-card>
+
+    <lightning-card>
+    <lightning-tabset variant="scoped">
+        <lightning-tab label="Details">
+            <div class="slds-box">
+                Quality Number &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Category
+                <br/>
+                <b>CAPA-00002</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B>CAPA</B>
+            </div>
+                <div class="slds-box">
+                Title
+                <br/>
+                <B>Machine Operator Cuts his hand</B>
+                </div>
+
+                <div class="slds-box">
+                    <lightning-accordion-section name="A" label="CAPA Risk Analysis"></lightning-accordion-section>
+                    <br/><br/>
+                    Risk Category &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Issue Related to
+                    <br/>
+                    <b>Product Safety</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Misshandling, misuse</b> 
+                    <br/>
+                    Impact (Severty Of Issue) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Likelihood of Reoccurence
+                    <br/>
+                    <b>3 - Moderate</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>3 - Likely</b>
+                    <br/><br/>
+                    CAPA Risk Score 
+                    <br/>
+                    <b>2 - Medium</b>
+                
+                </div>
+           
+           
+        </lightning-tab>
+        <lightning-tab label="Initiation">
+           
+        </lightning-tab>
+        <lightning-tab label="Investigation">
+        </lightning-tab>
+
+        <lightning-tab label="Other Details">
+        </lightning-tab>
+        
+
+        <lightning-tab label="Affected Items">
+            
+        </lightning-tab>
+
+        <lightning-tab label="More">
+        </lightning-tab>
+    </lightning-tabset>
+    <br>
+
+
+</lightning-card>
+
+</template>

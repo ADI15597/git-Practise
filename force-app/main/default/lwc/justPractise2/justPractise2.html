@@ -1,0 +1,92 @@
+<template>
+   
+    <lightning-card>
+       
+        <lightning-tabset variant="scoped">
+           
+            <lightning-tab label="Approvals">
+               </lightning-tab>
+
+            <lightning-tab label="Chatter">
+            </lightning-tab>
+
+            <lightning-tab label="More">
+            </lightning-tab>
+          
+
+        </lightning-tabset>
+
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-layout>
+                <lightning-layout-item padding="horizontal-small">
+            <lightning-input type="text" label="Enter some text" variant="label-hidden">
+            </lightning-input>
+        </lightning-layout-item>
+        <lightning-layout-item>
+            <lightning-button label="Add" variant="Brand">
+                
+            </lightning-button>
+        </lightning-layout-item>
+        </lightning-layout>
+        </div>
+        
+        <lightning-button label="Edit" title="Non-primary action" onclick={handleClick} class="slds-m-right_small"></lightning-button>
+        <lightning-button variant="brand" label="Submit" title="Primary action" onclick={handleClick} class="slds-m-right_small"></lightning-button>
+       
+    
+            <div class="slds-p-around_xx-small"></div>
+            
+    <!-- <lightning-card label="Activity Task">-->
+        
+        <lightning-accordion>
+            <lightning-button variant="Brand" label="Current(Pending)" class="slds-float_right"></lightning-button>
+        <lightning-accordion-section name="B" label="IMPLEMENTATION VERIFICATION"></lightning-accordion-section>
+        </lightning-accordion>
+           
+   <!--  </lightning-card> -->
+       <!--  <lightning-accordion active-section-name="A">
+           
+            <lightning-accordion-section name="A" label= "IMPLIMENTATION VERIFICATION">  
+                    <lightning-button-menu slot="actions" alternative-text="Show menu" icon-size="x-small" menu-alignment="auto">
+                        <lightning-menu-item value="New" label="Menu Item One"></lightning-menu-item>
+                        <lightning-menu-item value="Edit" label="Menu Item Two"></lightning-menu-item>
+                    </lightning-button-menu>
+                </lightning-accordion-section>
+            </lightning-accordion> -->
+
+             
+            <div class="slds-box">
+                <lightning-tabset variant="scoped">
+           
+                    <lightning-tab label="Approvers">
+                        <lightning-badge label="AD HOC"></lightning-badge>
+                        <lightning-badge label="UNANIMOUS"></lightning-badge>
+                        <br/>
+                        
+                        <table>
+                            <tr>
+                                <th scope="col">Original..</th>
+                                <th scope="col">Reassign..</th>
+                                <th scope="col">Status</th>
+                            </tr>
+                            
+                            <tr>
+                                <th scope="row">Michel</th>
+                            </tr>
+                            
+                            <tr>
+                                <th scope="row">Supplies</th>
+                            </tr>
+                        </table>
+                        
+                       
+
+                       </lightning-tab>
+        
+                    <lightning-tab label="History">
+                    </lightning-tab>
+                </lightning-tabset>
+            </div>
+        </lightning-card>
+   
+</template>

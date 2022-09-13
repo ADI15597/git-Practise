@@ -1,0 +1,46 @@
+<template>
+    <lightning-card>
+        <lightning-tabset>
+            <lightning-tab label="Activity">
+                <lightning-tabset variant="scoped">
+                    <lightning-tab label="Log a Call">
+                       
+                        <lightning-input type="text" placeholder="Recap your Call..."></lightning-input><br/>
+                        <div style="font-weight: bolder; text-align:Left; "> 
+                            <h5>Next Steps</h5> 
+                            <p style="text-align: center;"> No Next Steps.to get Things Moving Add A task or set up metting</p>
+                        </div><br/>
+                        <div style="font-weight: bolder; text-align:Left; "> 
+                            <h5>Past Activities</h5> 
+                            <p style="text-align: center;"> No Past Activities.Past mettings and tasks marked as done show up here</p><br/>
+                        </div>
+
+                    </lightning-tab>
+                    <lightning-tab label="New Task">
+                        Two Content !
+                    </lightning-tab>
+                    <lightning-tab label="New Event">
+                        Three Content !
+                    </lightning-tab>
+                    <lightning-tab label="Email">
+                        Three Content !
+                    </lightning-tab>
+                </lightning-tabset>
+            </lightning-tab>
+            <lightning-tab label="Details">
+                Two Content !
+            </lightning-tab>
+            <lightning-tab label="Chatter">
+                Three Content !
+            </lightning-tab>
+            <template if:true={showTabFour}>
+                <lightning-tab label="Item Four">
+                    Four Content !
+                </lightning-tab>
+            </template>
+        </lightning-tabset>
+    
+     
+    </lightning-card>
+    
+</template>
