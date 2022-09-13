@@ -4,6 +4,6 @@ public with sharing class dataController {
     }
     public static void newdataControllermethod()
     {
-        string s = 'practise makes man perfect';
+        string s = 'practise makes man perfect and excellent';
     }
 }
