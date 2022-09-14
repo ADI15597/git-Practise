@@ -18,4 +18,9 @@ public with sharing class AccountOprations {
         }
     }
 
+    public static void gitPractiseMethod()
+    {
+        string test = 'declared for git practise';
+    }
+
 }

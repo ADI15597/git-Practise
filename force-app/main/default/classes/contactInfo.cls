@@ -23,5 +23,9 @@ public with sharing class contactInfo {
         
         return conlist;
     }
+    public static void gitPractisemethod()
+    {
+        string test = 'added for git practise';
+    }
 
 }
