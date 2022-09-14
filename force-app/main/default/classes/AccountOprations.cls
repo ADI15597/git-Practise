@@ -20,7 +20,7 @@ public with sharing class AccountOprations {
 
     public static void gitPractiseMethod()
     {
-        string test = 'declared for git practise and creating conflict';
+        string test = 'declared for git practise';
     }
 
 }
