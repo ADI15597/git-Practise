@@ -25,7 +25,7 @@ public with sharing class contactInfo {
     }
     public static void gitPractisemethod()
     {
-        string test = 'added for git practise';
+        string test = 'added for git practise and resolving conflict';
     }
 
 }

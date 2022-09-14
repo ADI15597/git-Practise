@@ -46,7 +46,7 @@ public with sharing class AccountData {
         @AuraEnabled
         public static contact findAcc(id conId){
           
-            string test = 'added for git practise';
+            string test = 'added for git practise and resoving conflict';
             contact objCon = [select id,Account.Name,Account.Rating from contact where id=:conid];
             return objCon;
 
