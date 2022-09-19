@@ -61,6 +61,7 @@ public with sharing class AccountData {
         public static void gitPractise()
         {
             string p = 'practise variable';
+            string s = 'practise variable';
         }
 
 }
