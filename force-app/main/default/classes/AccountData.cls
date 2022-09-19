@@ -54,6 +54,7 @@ public with sharing class AccountData {
         public static void gitMethod()
         {
             string pullReq ="just for practise";
+            string newPull;
         }
 
         
