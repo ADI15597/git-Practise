@@ -57,7 +57,7 @@ public with sharing class AccountData {
             string newPull;
         }
 
-        
+
         
 
 }
