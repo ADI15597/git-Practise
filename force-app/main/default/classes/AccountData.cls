@@ -62,6 +62,7 @@ public with sharing class AccountData {
         {
             string p = 'practise variable';
             string s = 'practise variable';
+            string o;
         }
 
 }
