@@ -49,12 +49,28 @@ public with sharing class AccountData {
             string test = 'added for git practise';
             contact objCon = [select id,Account.Name,Account.Rating from contact where id=:conid];
             return objCon;
-
+            
         }
+        public static void gitMethod()
+        {
+            string pullReq ="just for practise";
+            string newPull;
+        }
+
+
+        public static void gitPractise()
+        {
+            string p = 'practise variable';
+            string s = 'practise variable';
+            string o;
+        }
+
     public static void git()
     {
     }
         
         
-    
+   
+
+
 }
